@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link href="./static/css/login.css" rel="stylesheet" s></link>
+    </head>
+
+  <link href="static/css/style.css" rel='stylesheet' type='text/css' media="all">
+<body>
+    <form action="/send" method="post">
+        <h2>Sign Up</h2>
+        <p>
+            <label for="Name" class="floatLabel">Name</label>
+            <input id="Name" name="Name" type="text">
+        </p>
+        <p>
+            <label for="Contact no." class="floatLabel">Contact no.</label>
+            <input id="Contact no." name="Contact no." type="text">
+        </p>
+        <p>
+            <label for="City" class="floatLabel">City</label>
+            <input id="City" name="City" type="text">
+        </p>
+        <p>
+            <label for="State" class="floatLabel">State</label>
+            <input id="State" name="State" type="text">
+        </p>
+        <p>
+            <label for="Address" class="floatLabel">Address</label>
+            <input id="Address" name="Address" type="text">
+        </p>
+        
+        <p>
+            <label for="password" class="floatLabel">Password</label>
+            <input id="password" name="password" type="password">
+            <!-- <span>Enter a password longoginer than 8 characters</span> -->
+        </p>
+        <p>
+            <label for="confirm_password" class="floatLabel">Confirm Password</label>
+            <input id="confirm_password" name="confirm_password" type="password">
+            <!-- <span>Your passwords do not match</span> -->
+        </p>
+        <p>
+            <input type="submit" value="Create My Account" id="submit">
+        </p>
+    </form>
+
+    <script src="login.js" type="text/javascript"></script>
+</body>
+
+</html>
